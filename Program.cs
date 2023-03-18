@@ -13,6 +13,18 @@ namespace log_EmployeeWageProblem
 
             log_EmployeedailyWageProblem Wage = new log_EmployeedailyWageProblem();
             Wage.DailyEmployeeWage();
+
+            log_EmployeeParttime employeeParttime = new log_EmployeeParttime();
+            employeeParttime.Employeeparttime();
+
+            log_EmployeeWageUsingSwitchCase Wageusingswitchcase = new log_EmployeeWageUsingSwitchCase();
+            Wageusingswitchcase.EmployeeWageSwitchCase();
+
+            log_CalculatingWagesForaMonth Monthlywage = new log_CalculatingWagesForaMonth();
+            Monthlywage.WagesforMonth();
+
+            log_CalculateWagesForCondition wagesForCondition = new log_CalculateWagesForCondition();
+            wagesForCondition.WagesTillConditionIsReached();
         }
     }
 }
