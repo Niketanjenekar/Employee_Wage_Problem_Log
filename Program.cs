@@ -11,6 +11,8 @@ namespace log_EmployeeWageProblem
             log_EmployeeCheck attendence = new log_EmployeeCheck();
             attendence.EmployeeCheck();
 
+            log_EmployeedailyWageProblem Wage = new log_EmployeedailyWageProblem();
+            Wage.DailyEmployeeWage();
         }
     }
 }
