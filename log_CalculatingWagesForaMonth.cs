@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace EmployeeWageComputationalProblem
 {
-    internal class CalculatingWagesForaMonth
+    internal class log_CalculatingWagesForaMonth
     {
-        public static void WagesforMonth()
+        public void WagesforMonth()
         {
             int IS_FULL_TIME = 1;
             int IS_PART_TIME = 2;

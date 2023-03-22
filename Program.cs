@@ -7,24 +7,26 @@ namespace log_EmployeeWageProblem
         public static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the Logging Employee Wage Problem");
-            
-            log_EmployeeCheck attendence = new log_EmployeeCheck();
-            attendence.EmployeeCheck();
 
-            log_EmployeedailyWageProblem Wage = new log_EmployeedailyWageProblem();
-            Wage.DailyEmployeeWage();
+            //log_EmployeeCheck attendence = new log_EmployeeCheck();
+            //attendence.EmployeeCheck();
 
-            log_EmployeeParttime employeeParttime = new log_EmployeeParttime();
-            employeeParttime.Employeeparttime();
+            //log_EmployeedailyWageProblem Wage = new log_EmployeedailyWageProblem();
+            //Wage.DailyEmployeeWage();
 
-            log_EmployeeWageUsingSwitchCase Wageusingswitchcase = new log_EmployeeWageUsingSwitchCase();
-            Wageusingswitchcase.EmployeeWageSwitchCase();
+            //log_EmployeeParttime employeeParttime = new log_EmployeeParttime();
+            //employeeParttime.Employeeparttime();
 
-            log_CalculatingWagesForaMonth Monthlywage = new log_CalculatingWagesForaMonth();
-            Monthlywage.WagesforMonth();
+            //log_EmployeeWageUsingSwitchCase Wageusingswitchcase = new log_EmployeeWageUsingSwitchCase();
+            //Wageusingswitchcase.EmployeeWageSwitchCase();
 
-            log_CalculateWagesForCondition wagesForCondition = new log_CalculateWagesForCondition();
-            wagesForCondition.WagesTillConditionIsReached();
+            //log_CalculatingWagesForaMonth Monthlywage = new log_CalculatingWagesForaMonth();
+            //Monthlywage.WagesforMonth();
+
+            //log_CalculateWagesForCondition wagesForCondition = new log_CalculateWagesForCondition();
+            //wagesForCondition.WagesTillConditionIsReached();
+
+            log_EmployeeWageUseCase7.EmployeeWageUseCase7();
         }
     }
 }

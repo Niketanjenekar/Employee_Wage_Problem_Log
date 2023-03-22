@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace EmployeeWageComputationalProblem
 {
-    public class EmployeedailyWageProblem
+    public class log_EmployeedailyWageProblem
     {
-        public static void DailyEmployeeWage()
+        public void DailyEmployeeWage()
         {
             int IS_FULL_TIME = 1;
             int EMP_RATE_PER_HOUR = 20;

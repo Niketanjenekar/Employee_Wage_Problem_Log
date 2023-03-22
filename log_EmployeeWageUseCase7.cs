@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EmployeeWageComputationalProblem
+namespace log_EmployeeWageProblem
 {
-    public class log_EmployeeWageUsingSwitchCase
+    internal class log_EmployeeWageUseCase7
     {
         public const int IS_FULL_TIME = 1;
         public const int IS_PART_TIME = 2;
         public const int EMP_RATE_PER_HOUR = 20;
 
-        public void EmployeeWageSwitchCase()
+        public static int EmployeeWageUseCase7()
         {
             int Emp_Hrs = 0;
             int Emp_Wage = 0;
@@ -22,7 +22,7 @@ namespace EmployeeWageComputationalProblem
             int Emp_check = random.Next(3);
 
             switch (Emp_check)
-            {   
+            {
                 case IS_FULL_TIME:
                     Emp_Hrs = 8;
                     Console.WriteLine("The Employee is Present");
@@ -36,11 +36,12 @@ namespace EmployeeWageComputationalProblem
                     Console.WriteLine("Employee is Absent");
                     break;
 
-
             }
             Emp_Wage = Emp_Hrs * EMP_RATE_PER_HOUR;
             Console.WriteLine("The Employee Wage is :" + Emp_Wage + " Rupees");
-
+            return Emp_Wage;
         }
+
+        
     }
 }

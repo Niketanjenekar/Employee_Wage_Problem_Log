@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace EmployeeWageComputationalProblem
 {
-    internal class CalculateWagesForCondition
+    internal class log_CalculateWagesForCondition
     {
-        public static void WagesTillConditionIsReached()
+        public void WagesTillConditionIsReached()
         {
             int IS_FULL_TIME = 1;
             int IS_PART_TIME = 2;

@@ -6,7 +6,23 @@ using System.Threading.Tasks;
 
 namespace log_EmployeeWageProblem
 {
-    internal class WelcomeWageProblem
+    internal class log_EmployeeCheck
     {
+        public void EmployeeCheck()
+        {
+            int IS_FULL_TIME = 1;
+            Random random = new Random();
+
+            int empCheck = random.Next(2);
+
+            if (empCheck == IS_FULL_TIME)
+            {
+                Console.WriteLine("The Employee is Present");
+            }
+            else
+            {
+                Console.WriteLine("The Employee is Absent");
+            }
+        }
     }
 }
