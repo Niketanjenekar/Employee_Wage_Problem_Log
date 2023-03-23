@@ -26,7 +26,10 @@ namespace log_EmployeeWageProblem
             //log_CalculateWagesForCondition wagesForCondition = new log_CalculateWagesForCondition();
             //wagesForCondition.WagesTillConditionIsReached();
 
-            log_EmployeeWageUseCase7.EmployeeWageUseCase7();
+            //log_EmployeeWageUseCase7.EmployeeWageUseCase7();
+
+            log_EmployeeWageUseCase7 obj = new log_EmployeeWageUseCase7();
+            obj.EmployeeWageUseCase7();
         }
     }
 }
