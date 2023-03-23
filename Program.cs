@@ -28,8 +28,14 @@ namespace log_EmployeeWageProblem
 
             //log_EmployeeWageUseCase7.EmployeeWageUseCase7();
 
-            log_EmployeeWageUseCase7 obj = new log_EmployeeWageUseCase7();
-            obj.EmployeeWageUseCase7();
+            //log_EmployeeWageUseCase7 obj = new log_EmployeeWageUseCase7();
+            //obj.EmployeeWageUseCase7();
+
+
+            EmpWageforMultipleCompanies_UseCase8.EmployeeWageUC8("Dmart", 20, 10, 90);
+            EmpWageforMultipleCompanies_UseCase8.EmployeeWageUC8("Reliance", 40, 35, 80);
+
+
         }
     }
 }
