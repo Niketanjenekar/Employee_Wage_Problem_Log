@@ -1,5 +1,5 @@
 ﻿using EmployeeWageComputationalProblem;
-using static log_EmployeeWageProblem.Usecase12_ArrayList;
+using static log_EmployeeWageProblem.UseCase14_Queried;
 
 namespace log_EmployeeWageProblem
 {
@@ -28,7 +28,10 @@ namespace log_EmployeeWageProblem
                     Console.WriteLine("Enter the details:");
                     companies.Add(new CompanyEmpWage());
                     Console.WriteLine("_________________________________________________");
-                    companies[companies.Count - 1].EmployeeWageUC10();
+                    companies[companies.Count - 1].EmployeeWageUC14();
+                    companies[companies.Count - 1].PrintDailyWages();
+
+                    int totalWage = companies[companies.Count - 1].GetTotalWage();  
                 }
                 else if (choice == 2)
                 {
