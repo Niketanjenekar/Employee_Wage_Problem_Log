@@ -1,5 +1,5 @@
 ﻿using EmployeeWageComputationalProblem;
-using static log_EmployeeWageProblem.ManagingMumtipleCompanies_Usecase10;
+using static log_EmployeeWageProblem.Usecase12_ArrayList;
 
 namespace log_EmployeeWageProblem
 {
@@ -9,28 +9,30 @@ namespace log_EmployeeWageProblem
         {
             Console.WriteLine("Welcome to the Logging Employee Wage Problem");
 
-            ManagingMumtipleCompanies_Usecase10[] Company = new ManagingMumtipleCompanies_Usecase10[5];
+            List<ParentComputeEmpWage> companies = new List<ParentComputeEmpWage>();
+            Console.WriteLine("Welcome to Employee Wage Computation Program On Master Branch");
+            Console.WriteLine("----------------------------------------------------------------------");
 
             Console.WriteLine("Welcome to Employee Wage Computation Program On Master Branch");
             Console.WriteLine("----------------------------------------------------------------------");
 
-            for (int i = 0; i < Company.Length; i++)
+            while (true)
             {
                 Console.WriteLine("******************:MENU:******************");
                 Console.WriteLine("PRESS 1: To Calculate the wage in a Company.");
                 Console.WriteLine("PRESS 2: To EXIT.");
+
                 int choice = Convert.ToInt32(Console.ReadLine());
                 if (choice == 1)
                 {
                     Console.WriteLine("Enter the details:");
-                    Company[i] = new ManagingMumtipleCompanies_Usecase10();
+                    companies.Add(new CompanyEmpWage());
                     Console.WriteLine("_________________________________________________");
-                    Company[i].EmployeeWageBuilder();
-
+                    companies[companies.Count - 1].EmployeeWageUC10();
                 }
-                else
+                else if (choice == 2)
                 {
-                    i = Company.Length;
+                    break;
                 }
             }
 
